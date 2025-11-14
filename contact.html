@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The official website for the Readers' Blog">
+    <meta name="author" content="Fatahi Showunmi">
+    <title>Contact Us | Readers' Blog</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">The Readers' Blog</h1>
+
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Book</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#form">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <figure>
+            <img src="blog-img/thought-catalog-OJZB0VUQKKc-unsplash.jpg" alt="Open with A Coffee" width="1000"
+                height="640">
+            <figcaption class="offscreen">Welcome to Our Office</figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+
+        <section id="location" class="main__section">
+            <h2 class="location__h2">Our Location</h2>
+            <p>
+            <address>
+                10, Bamigbose Street, Doctor Bus-Stop, Off Itele road, Oke-Ola Ota, Sango-ota.
+            </address>
+            </p>
+            <p>
+                Phone: <a href="tel:+2347038915608">+2347038915608</a>
+            </p>
+        </section>
+
+        <section class="main__section contact" id="form">
+            <h2 class="contact__h2">Our Contact Form</h2>
+            <form action="https://httpbin.org" method="post" class="contact__form">
+                <fieldset class="contact__field">
+                    <legend class="offscreen">Send Us A Message</legend>
+                    <p class="contact__p">
+                        <label class="contact__label" for="fullname">Full Name:</label>
+                        <input class="contact__input" type="text" id="fullname" name="fullname" placeholder="Enter Surname first">
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="email">Email:</label>
+                        <input class="contact__input" type="email" id="email" name="email" placeholder="Enter your mail">
+                    </p>
+                    <p class="contact__p">
+                        <label class="contact__label" for="message">Your Message:</label>
+                        <br>
+                        <textarea class="contact__textarea" name="message" id="message" cols="30" rows="10"
+                            placeholder="Drop your Message here."></textarea>
+                    </p>
+
+                    <button class="contact__button" type="submit">Submit</button>
+                </fieldset>
+
+            </form>
+        </section>
+
+
+        
+    </main>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy;2025</span> <span class="nowrap">Readers' Blog</span>
+        </p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
