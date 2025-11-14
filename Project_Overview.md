@@ -36,10 +36,9 @@ WK8Ass/HTML/
 
 ## 🌐 Live URL
 
-**Coming Soon!** The website will be deployed at:
-- Primary URL: `[Your Live URL Here]`
-- GitHub Pages: `https://[your-username].github.io/WK8Ass/`
-- Alternative Hosting: `[Add deployment platform URL]`
+The website will be deployed at:
+- Primary URL: `https://readersblog.netlify.app/`
+
 
 *Note: Update this section with your actual live URL once deployed*
 
